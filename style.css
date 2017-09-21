@@ -1,0 +1,439 @@
+/* Estilos generales */
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* body background*/
+body{
+	background-color: #373737;
+}
+
+h1, h2, h4, h5, h6 {
+	text-transform: uppercase;
+	color: #c5c2c2;
+	font-family: 'Raleway', sans-serif;
+}
+
+h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	padding-top:20px;
+	font-weight: normal;
+	color: #9c9c9c;
+}
+h4.registro{
+	color:#c5c2c2;}
+h4 {
+	margin-top: 15px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-size: 12px;
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 10px 0;
+}
+/*edicion del logotipo*/
+header div div a img{
+	height: 35px;
+	width: auto;
+}
+header div div.logo a.text-logo{
+  text-decoration: none;
+	font-size: 14px;
+	color: #c5c2c2;
+}
+/*edicion del logotipo*/
+p{
+	color:#c5c2c2;
+	font-size: 14px;
+}
+
+/* Fin de estilos generales */
+
+
+/* Estilos del header */
+
+header {
+	width: 100%;
+	height: 70px;
+
+	position: fixed;
+
+	background: rgba(47, 48, 47, 0.8);
+
+	z-index: 10;
+}
+
+.ancho {
+	width: 80%;
+	height: 70px;
+
+	/*background: blue;*/
+
+	margin: auto;
+}
+
+.logo {
+	width: 30%;
+	height: 70px;
+
+	/*background: yellow;*/
+
+	float: left;
+
+	padding-top: 17px;
+
+	box-sizing: border-box;
+}
+
+.logo p a {
+	color:#fff;
+
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.tipo {
+	color:#fff;
+
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+
+nav {
+	width: 70%;
+	height: 70px;
+
+	text-align: right;
+
+	/*background: green;*/
+
+	padding-top: 23px;
+
+	box-sizing: border-box;
+
+	float: left;
+}
+
+nav ul li {
+	list-style-type: none;
+
+	margin-left: 5px;
+
+	display: inline;
+}
+
+nav ul li a {
+	color:#fff;
+
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+
+	letter-spacing: 1px;
+
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color:#00F000;
+}
+
+/* Fin estilos del header */
+
+
+/* Estilo de redes */
+
+.red-soc {
+	position: fixed;
+	top: 200px;
+	left: 0;
+	z-index: 10;
+}
+
+#face a{
+	width: 18px;
+	background: #3b5998;
+	padding: 10px 20px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+
+#face a:hover{
+	background: #000;
+	padding: 10px 28px;
+}
+
+#tw a {
+	width: 18px;
+	background: #55acee;
+	padding: 10px 20px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+
+#tw a:hover {
+	background: #000;
+	padding: 10px 28px;
+}
+
+#yt a {
+	width: 18px;
+	background: #ff0000;
+	padding: 10px 20px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+
+#yt a:hover {
+	background: #000;
+	padding: 10px 28px;
+}
+
+/* Fin de estilo de redes */
+
+
+/* Estilos del contenido - pagina principal */
+
+.contenedor {
+	width: 100%;
+	height: 482px;
+
+	position: absolute;
+
+	padding-top: 180px;
+
+	background: url(../img/img1.jpg);
+	/*dentro de las proporciones que le damos*/
+	background-attachment: fixed;
+	/*mismo tamaño que el contenedor*/
+	background-size: cover;
+	/*background-position: center;*/
+	background-repeat: no-repeat;
+}
+
+.cont-principal {
+	width: 80%;
+
+	margin: 0 auto;
+
+	color: #fff;
+
+	text-align: center;
+}
+
+.cont-principal h3 {
+	width: 65%;
+	font-size: 35px;
+
+	color: #fff;
+
+	text-transform: uppercase;
+
+	margin: 0 auto 100px auto;
+	padding: 18px 0;
+
+	background: rgba(0,0,0,0.6);
+
+}
+.cont-principal p{
+	width: 65%;
+	font-size: 15px;
+
+	color: #fff;
+
+	text-transform: uppercase;
+
+	margin: auto;
+
+	padding: 18px 0 ;
+
+	background: rgba(0,0,0,0.6);
+}
+
+/* Fin estilos del contenido - pagina principal /
+
+
+/* Estilos del contenido - nosotros */
+
+.wap {
+	width: 90%;
+	margin:auto;
+}
+
+.bienvenidos {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.bienvenidos h2 {
+	margin-bottom: 10px;
+}
+
+.contenedor-col {
+	width: 100%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.colx3 {
+	width: 33.333%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.colx3 img{
+	width: 100%;
+}
+
+/* Estilos de apartado miembros */
+
+.miembros {
+	clear: both;
+	padding: 50px 0;
+	text-align: center;
+}
+
+/* Fin de estilos de apartado miembros */
+
+/* Fin de estilos del contenido - nosotros */
+
+
+/* Estilos de registro y otros datos de interés */
+
+/* Estilos de apartado registrarse - registro de usuarios */
+
+.dos-col {
+	margin-top: 50px;
+}
+
+.form {
+	width: 50%;
+	float: left;
+	margin: auto;
+	color:#999;
+}
+
+.form-ti {
+	margin-bottom: 12px;
+	margin-left: 20px;
+	color: #444;
+}
+
+
+.caja-1 {
+	width: 218px;
+	height: 40px;
+	margin: 15px 20px;
+	padding: 0 15px;
+	font-size: 14px;
+}
+
+.caja-2 {
+	width: 500px;
+	height: 95px;
+	margin:30px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.contratar-a{
+	background: #85c34a;
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 70px;
+	letter-spacing: 1px;
+	width: 90%;
+}
+.contratar-a:hover{
+	background: #777;
+}
+
+.correr {
+	/*width: 549px;*/
+	margin: 10px 20px;
+	padding: 10px 20px;
+}
+
+/* Fin de estilos de apartado registrarse - registro de usuarios */
+
+/* Estilos de apartado otros datos de interés */
+
+.datos {
+	width: 25%;
+	float: left;
+	margin: auto;
+	color:#999;
+}
+
+.datos-contacto {
+	list-style: none;
+	text-align: center;
+}
+
+.datos-contacto li {
+	color: #444;
+	padding-bottom: 5px;
+}
+
+.datos-contacto li i {
+	color: #85c34a;
+	font-size: 60px;
+}
+
+.limpia {
+	clear: both;
+}
+
+/* Fin de apartado otros datos de interés */
+
+/* Fin de registro y otros datos de interés */
+
+
+/* Estilos del footer */
+
+.footer {
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+	padding: 30px 0;
+	background: rgba(47, 48, 47, 0.8);
+}
+
+.copy {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.copy p {
+	color: #fff;
+}
+
+/* Fin de estilos del footer */
