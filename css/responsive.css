@@ -1,0 +1,179 @@
+/* Responsive */
+
+/* estilos especiales cuando sea el ancho maximo 480px - móvil*/
+
+@media only screen and (max-width: 480px) {
+
+	/* FALTA EL HEADER Y LOS ELEMENTOS DEL MISMO */
+
+	header {
+		height: 55px;
+	}
+
+	.ancho {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.logo {
+		width: 100%;
+		height: 35px;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		padding-top: 3px;
+	}
+
+	.logo p a {
+		width: 100%;
+		font-size: 20px;
+		margin: 0;
+	}
+
+	nav {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	nav ul li a {
+		font-size: 12px;
+	}
+
+	.slideInUp {
+		display: none;
+	}
+
+	/*********************************************/
+
+	.red-soc {
+		display: none;
+	}
+
+	.cont-principal h3 {
+		font-size: 20px;
+	}
+
+	.cont-principal p {
+		display: none;
+	}
+
+	.colx3 {
+		width: 100%;
+	}
+
+	.dos-col {
+		width: 100%;
+	}
+
+	.form {
+		width: 85%;
+		margin: 0;
+	}
+
+	.form-ti {
+		width: 100%;
+	}
+
+	.caja-1 {
+		width: 100%;
+	}
+
+	.caja-2 {
+		width: 100%;
+	}
+
+	.correr {
+		width: 100%;
+	}
+
+	.datos {
+		width: 100%;
+	}
+
+}
+
+/* estilos especiales cuando sea el ancho minimo 481 y el ancho maximo 768px - tablet */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	
+	header {
+		height: 60px;
+	}
+
+	.ancho {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.logo {
+		width: 100%;
+		height: 35px;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	.logo p a {
+		width: 100%;
+		font-size: 27px;
+		margin: 0; 
+	}
+
+	nav {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	nav ul li a {
+		font-size: 13px;
+	}
+
+	.cont-principal h3 {
+		font-size: 26px;
+		margin-bottom: 35px;
+	}
+
+	.cont-principal p {
+		font-size: 12px;
+	}
+
+	.colx3 {
+		width: 100%;
+	}
+
+	.dos-col {
+		width: 100%;
+	}
+
+	.form {
+		width: 85%;
+		margin: 0;
+	}
+
+	.form-ti {
+		width: 100%;
+	}
+
+	.caja-1 {
+		width: 100%;
+	}
+
+	.caja-2 {
+		width: 100%;
+	}
+
+	.correr {
+		width: 100%;
+	}
+
+	.datos {
+		width: 100%;
+	}
+
+}
